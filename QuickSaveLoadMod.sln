@@ -5,16 +5,35 @@ VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSaveLoadMod", "QuickSaveLoadMod\QuickSaveLoadMod.csproj", "{D0DBAA21-8F61-43C7-AF4C-51740EB13647}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSCLoader", "..\..\Items\piotrulos Products\MSCModLoader\0.4.7a\MSCModLoader-0.4.7\MSCLoader\MSCLoader\MSCLoader.csproj", "{3323FE4A-D360-4692-9309-F20B57BBB745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSCQuickSaveLoad", "C:\Users\tommo\Downloads\mscquicksaveload\MSCQuickSaveLoad\MSCQuickSaveLoad.csproj", "{6A58F462-141E-45CE-8CBB-7C82181C6B58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		DevMode|Any CPU = DevMode|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D0DBAA21-8F61-43C7-AF4C-51740EB13647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0DBAA21-8F61-43C7-AF4C-51740EB13647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DBAA21-8F61-43C7-AF4C-51740EB13647}.DevMode|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DBAA21-8F61-43C7-AF4C-51740EB13647}.DevMode|Any CPU.Build.0 = Debug|Any CPU
 		{D0DBAA21-8F61-43C7-AF4C-51740EB13647}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0DBAA21-8F61-43C7-AF4C-51740EB13647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3323FE4A-D360-4692-9309-F20B57BBB745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3323FE4A-D360-4692-9309-F20B57BBB745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3323FE4A-D360-4692-9309-F20B57BBB745}.DevMode|Any CPU.ActiveCfg = DevMode|Any CPU
+		{3323FE4A-D360-4692-9309-F20B57BBB745}.DevMode|Any CPU.Build.0 = DevMode|Any CPU
+		{3323FE4A-D360-4692-9309-F20B57BBB745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3323FE4A-D360-4692-9309-F20B57BBB745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A58F462-141E-45CE-8CBB-7C82181C6B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A58F462-141E-45CE-8CBB-7C82181C6B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A58F462-141E-45CE-8CBB-7C82181C6B58}.DevMode|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A58F462-141E-45CE-8CBB-7C82181C6B58}.DevMode|Any CPU.Build.0 = Debug|Any CPU
+		{6A58F462-141E-45CE-8CBB-7C82181C6B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A58F462-141E-45CE-8CBB-7C82181C6B58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
